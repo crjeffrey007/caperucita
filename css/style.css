@@ -17452,6 +17452,7 @@ html:not(.lt-ie10) .not-animated {
 .lg-toolbar, .lg-prev, .lg-next {
 	opacity: 1;
 	transition: transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s, color 0.2s linear;
+	display: none;
 }
 
 .lg-hide-items .lg-prev {
