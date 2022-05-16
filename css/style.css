@@ -170,13 +170,13 @@ body {
 }
 
 a {
-	color: black;
+	color: #00bd9d;
 	text-decoration: none;
 	transition: .25s;
 }
 
 a:focus {
-	color: red;
+	color: #00bd9d;
 }
 
 a:focus, a:hover {
@@ -185,7 +185,7 @@ a:focus, a:hover {
 }
 
 a:hover {
-	color: red;
+	color: #00715d;
 }
 
 a[href*='callto'], a[href*='mailto'] {
@@ -193,11 +193,11 @@ a[href*='callto'], a[href*='mailto'] {
 }
 
 .link-hover {
-	color: red;
+	color: #00715d;
 }
 
 .link-active {
-	color: red;
+	color: #00715d;
 }
 
 img {
@@ -1705,8 +1705,6 @@ a.box-triangle__aside:hover .box-triangle__image {
 .button[class*='outline'] {
 	border-width: 2px;
 	border-style: solid;
-	color: red;
-        border-color: red;
 }
 
 .button-default-outline, .button-default-outline:focus {
@@ -1717,8 +1715,8 @@ a.box-triangle__aside:hover .box-triangle__image {
 
 .button-default-outline:hover, .button-default-outline:active {
 	color: #ffffff;
-	background-color: red;
-	border-color: red;
+	background-color: #00bd9d;
+	border-color: #00bd9d;
 }
 
 .button-default-outline.button-ujarak:hover {
@@ -15487,8 +15485,8 @@ html.boxed .rd-navbar--is-clone {
 	height: 45px;
 	font-size: 30px;
 	line-height: 45px;
-	color: #ffffff;
-	background: red;
+	color: red;
+	background: white;
 	position: fixed;
 	right: 15px;
 	bottom: 15px;
@@ -15501,8 +15499,8 @@ html.boxed .rd-navbar--is-clone {
 }
 
 .ui-to-top:hover {
-	color: red;
-	background: white;
+	color: white;
+	background: red;
 	text-decoration: none;
 }
 
@@ -19009,7 +19007,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: red;
 }
 
 [class*='fa-']:before {
@@ -32356,9 +32353,4 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .fl-bigmug-line-zoom60:before {
 	content: "\e0db";
-}
-
-.heading-1 wow fadeInLeftSmall {
-    font-size: 66px;
-    line-height: 1.33333;
 }
