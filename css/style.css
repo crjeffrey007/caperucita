@@ -176,7 +176,7 @@ a {
 }
 
 a:focus {
-	color: red;
+	color: black;
 }
 
 a:focus, a:hover {
