@@ -170,13 +170,13 @@ body {
 }
 
 a {
-	color: #00bd9d;
+	color: black;
 	text-decoration: none;
 	transition: .25s;
 }
 
 a:focus {
-	color: #00bd9d;
+	color: red;
 }
 
 a:focus, a:hover {
@@ -185,7 +185,7 @@ a:focus, a:hover {
 }
 
 a:hover {
-	color: #00715d;
+	color: red;
 }
 
 a[href*='callto'], a[href*='mailto'] {
@@ -193,11 +193,11 @@ a[href*='callto'], a[href*='mailto'] {
 }
 
 .link-hover {
-	color: #00715d;
+	color: red;
 }
 
 .link-active {
-	color: #00715d;
+	color: red;
 }
 
 img {
@@ -247,7 +247,7 @@ p * {
 }
 
 p a {
-	color: #00bd9d;
+	color: red;
 }
 
 p [data-toggle='tooltip'] {
