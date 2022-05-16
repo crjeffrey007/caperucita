@@ -1705,6 +1705,8 @@ a.box-triangle__aside:hover .box-triangle__image {
 .button[class*='outline'] {
 	border-width: 2px;
 	border-style: solid;
+	color: red;
+        border-color: red;
 }
 
 .button-default-outline, .button-default-outline:focus {
@@ -1715,8 +1717,8 @@ a.box-triangle__aside:hover .box-triangle__image {
 
 .button-default-outline:hover, .button-default-outline:active {
 	color: #ffffff;
-	background-color: #00bd9d;
-	border-color: #00bd9d;
+	background-color: red;
+	border-color: red;
 }
 
 .button-default-outline.button-ujarak:hover {
