@@ -3306,6 +3306,7 @@ html .icon-md {
 	margin-bottom: -15px;
 	margin-left: -10px;
 	margin-right: -10px;
+	display: flex;
 }
 
 .page .list-inline-sm > * {
@@ -3313,6 +3314,7 @@ html .icon-md {
 	margin-top: 15px;
 	padding-left: 10px;
 	padding-right: 10px;
+	display: flex;
 }
 
 .page .list-inline-sm > * {
