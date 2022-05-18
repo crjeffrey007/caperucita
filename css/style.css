@@ -521,6 +521,7 @@ hr {
 	height: 1px;
 	width: 100%;
 	background: #d3d3d6;
+	display: none;
 }
 
 .divider-modern::before {
@@ -8562,7 +8563,6 @@ h5 + img,
 }
 
 .divider-modern + * {
-	margin-top: 19px;
         margim-bottom: 20px;
 	display: flex;
 	justify-content: center;
