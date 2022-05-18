@@ -3130,11 +3130,11 @@ html .icon-md {
 }
 
 .icon-style-camera, .icon-style-camera:active, .icon-style-camera:focus {
-	color: #d3d3d6;
+	color: red;
 }
 
 .icon-style-camera:hover {
-	color: #00bd9d;
+	color: gray;
 }
 
 .icon-style-social {
@@ -3148,7 +3148,7 @@ html .icon-md {
 }
 
 .icon-style-social:focus, .icon-style-social:active, .icon-style-social:hover {
-	color: #ffffff;
+	color: gray;
 }
 
 .icon-style-social[class*='facebook'] {
