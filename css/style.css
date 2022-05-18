@@ -8563,6 +8563,9 @@ h5 + img,
 
 .divider-modern + * {
 	margin-top: 19px;
+        margim-bottom: 20px;
+	display: flex;
+	justify-content: center;
 }
 
 .divider-small + p {
