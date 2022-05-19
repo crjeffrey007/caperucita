@@ -32370,3 +32370,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     transform: translateY(0);
     display: none;
 }
+
+#form [data-role="page"][data-num-children]:not([data-num-children="0"]) {
+    width: 470px;
+    padding: auto auto auto auto;
+    margin: auto auto auto auto !important;
+    background-color: #ffffff;
+    border-width: 0px;
+    border-style: none;
+    border-color: #4c4c4c;
+}
