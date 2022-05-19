@@ -32363,3 +32363,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .fl-bigmug-line-zoom60:before {
 	content: "\e0db";
 }
+
+.action-content.action-bar--visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    display: none;
+}
