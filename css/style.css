@@ -182,6 +182,7 @@ a:focus {
 a:focus, a:hover {
 	text-decoration: none;
 	outline: none;
+	color: red;
 }
 
 a:hover {
@@ -270,12 +271,12 @@ h1, h2, h3, h4, h5, h6, .heading-1, .heading-2, .heading-3, .heading-4, .heading
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .heading-1 a, .heading-2 a, .heading-3 a, .heading-4 a, .heading-5 a, .heading-6 a {
-	color: inherit;
+	color: black;
 	transition: .3s all ease;
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .heading-1 a:hover, .heading-2 a:hover, .heading-3 a:hover, .heading-4 a:hover, .heading-5 a:hover, .heading-6 a:hover {
-	color: #00bd9d;
+	color: red;
 }
 
 h1 *, h2 *, h3 *, h4 *, h5 *, h6 *, .heading-1 *, .heading-2 *, .heading-3 *, .heading-4 *, .heading-5 *, .heading-6 * {
