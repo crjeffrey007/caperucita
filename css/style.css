@@ -991,7 +991,7 @@ a.box-triangle__aside:hover .box-triangle__image {
 	height: 4px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #00bd9d;
+	background: red;
 }
 
 .box-minimal__text {
@@ -999,6 +999,7 @@ a.box-triangle__aside:hover .box-triangle__image {
 	max-width: 320px;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 16px;
 }
 
 * + .box-minimal__title {
