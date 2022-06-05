@@ -32384,3 +32384,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .form_inline .form__inner {
     display: none;
 }
+
+.page .list-inline-sm {
+    position: relative;
+    transform: translate3d(0, -15px, 0);
+    margin-bottom: -15px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    justify-content: center;
+}
+
