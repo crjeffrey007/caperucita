@@ -32380,3 +32380,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     border-style: none;
     border-color: #4c4c4c;
 }
+
+.form_inline .form__inner {
+    display: none;
+}
