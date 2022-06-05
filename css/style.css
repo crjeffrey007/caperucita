@@ -3287,6 +3287,7 @@ html .icon-md {
 	margin-bottom: -10px;
 	margin-left: -5px;
 	margin-right: -5px;
+	margint-top: 35px;
 }
 
 .page .list-inline-xs > * {
@@ -8965,10 +8966,9 @@ h4 + .heading-5,
 	}
 	.layout-columns__main {
 		width: 58.7%;
-		padding: 45px 40px 50px;
+		padding: 1px 40px 50px;
 	}
 	.layout-columns__main-inner {
-		max-width: 390px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -9002,6 +9002,7 @@ h4 + .heading-5,
 @media (min-width: 1200px) {
 	.layout-columns__aside {
 		padding-left: 75px;
+		padding-top: 125px;
 	}
 }
 
@@ -11847,6 +11848,7 @@ html.lt-ie-10 .range > .cell-lg-12 {
 	-webkit-flex-direction: row;
 	-ms-flex-direction: row;
 	flex-direction: row;
+	padding-top: 35px;
 }
 
 .unit-horizontal > .unit__left + .unit__right,
@@ -19813,6 +19815,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .fa-facebook-f:before,
 .fa-facebook:before {
 	content: "\f09a";
+	color: #f91517;
 }
 
 .fa-github:before {
@@ -20584,6 +20587,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .fa-instagram:before {
 	content: "\f16d";
+	color: #f91517;
 }
 
 .fa-flickr:before {
@@ -21341,6 +21345,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .fa-whatsapp:before {
 	content: "\f232";
+        color: #f91517;
 }
 
 .fa-server:before {
@@ -29556,6 +29561,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .material-icons-link:before {
 	content: "\e157";
+	color: #f91517;
 }
 
 .material-icons-list:before {
