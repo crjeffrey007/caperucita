@@ -32395,3 +32395,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     justify-content: center;
 }
 
+#form {
+    padding-top: px;
+}
