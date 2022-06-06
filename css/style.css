@@ -9008,7 +9008,7 @@ h4 + .heading-5,
 @media (min-width: 1200px) {
 	.layout-columns__aside {
 		padding-left: 75px;
-		padding-top: 125px;
+		padding-top: 75px;
 	}
 }
 
