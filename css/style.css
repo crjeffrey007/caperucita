@@ -2526,6 +2526,7 @@ a.box-triangle__aside:hover .box-triangle__image {
 .rd-mailform {
 	position: relative;
 	text-align: left;
+	padding-top: 50px;
 }
 
 .rd-mailform .button {
@@ -28847,6 +28848,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .material-icons-email:before {
 	content: "\e0be";
+	color: red;
 }
 
 .material-icons-equalizer:before {
@@ -29668,6 +29670,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .material-icons-local_phone:before {
 	content: "\e551";
+	color: red;
 }
 
 .material-icons-local_pizza:before {
@@ -29712,6 +29715,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .material-icons-location_on:before {
 	content: "\e0c8";
+	color: red;
 }
 
 .material-icons-location_searching:before {
