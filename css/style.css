@@ -1710,6 +1710,7 @@ a.box-triangle__aside:hover .box-triangle__image {
 	border-style: solid;
 	border-color: red;
 	background: red;
+	margin-bottom: 50px;
 }
 
 .button-default-outline, .button-default-outline:focus {
