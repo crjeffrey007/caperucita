@@ -85,26 +85,43 @@
           </nav>
         </div>
       </header>
-
-      <!-- Contacto-->
+      <!-- Get in Touch-->
       <section class="section section-md bg-white text-center">
         <div class="shell">
           <div class="range range-md-center">
             <div class="cell-md-11 cell-lg-10">
-              <h2 class="text-bold">Contáctanos</h2>
+              <h2 class="text-bold">Get in Touch</h2>
+              <p><span class="box-width-2">We are available 24/7 by fax, e-mail or by phone. You can also use our quick contact form to ask a question about our services and projects.</span></p>
               <div class="layout-columns"> 
                 <div class="layout-columns__main">
                   <div class="layout-columns__main-inner">
                     <!-- RD Mailform-->
-                    <!-- form.123formbuilder.com script begins here -->
-                    <script type="text/javascript" defer src="https://form.123formbuilder.com/embed/6164274.js" data-role="form" data-default-width="650px"></script>
-                    <!-- form.123formbuilder.com script ends here -->
+                    <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                      <div class="form-wrap">
+                        <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                        <label class="form-label" for="contact-name">Nombre Completo</label>
+                      </div>
+                      <div class="form-wrap">
+                        <input class="form-input" id="contact-phone" type="phone" name="phone" data-constraints="@Required">
+                        <label class="form-label" for="contact-phone">Teléfono</label>
+                      </div>
+                      <div class="form-wrap">
+                        <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                        <label class="form-label" for="contact-email">E-mail</label>
+                      </div>
+                      <div class="form-wrap">
+                        <label class="form-label" for="contact-message">Mensaje</label>
+                        <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                      </div>
+                      <div class="form-wrap form-button offset-1">
+                        <button class="button button-block button-primary-outline button-ujarak" type="submit">Enviar</button>
+                      </div>
+                    </form>
                   </div>
                 </div>
                 <div class="layout-columns__aside">
                   <div class="layout-columns__aside-item">
                     <p class="heading-5">Redes Sociales</p>
-                    <p class="heading-5"></p>
                     <div class="divider-modern"></div>
                     <ul class="list-inline-xs">
                       <li><a class="icon icon-md icon-gray-7 fa fa-facebook" href="https://www.facebook.com/confeccioneslacaperucita" target="_blank" rel="noopener noreferrer"></a></li>
@@ -118,6 +135,21 @@
                     <div class="unit unit-horizontal unit-spacing-xxs">
                       <div class="unit__left"><span class="icon icon-md icon-primary material-icons-local_phone"></span></div>
                       <div class="unit__body"><a href="https://walink.co/4b8e22" target="_blank" rel="noopener noreferrer">+506 8731 5836</a></div>
+                    </div>
+                    <div class="layout-columns__aside-item">
+                    <p class="heading-5">Email</p>
+                    <div class="divider-modern"></div>
+                    <div class="unit unit-horizontal unit-spacing-xxs">
+                      <div class="unit__left"><span class="icon icon-md icon-primary material-icons-email"></span></div>
+                      <div class="unit__body"><a href="mailto:confeccioneslacaperucita@gmail.com" target="_blank" rel="noopener noreferrer">+506 8731 5836</a></div>
+                    </div>                  
+                  </div>
+                  <div class="layout-columns__aside-item">
+                    <p class="heading-5">Estamos ubicados en:</p>
+                    <div class="divider-modern"></div>
+                    <div class="unit unit-horizontal unit-spacing-xxs">
+                      <div class="unit__left"><span class="icon icon-md icon-primary material-icons-location_on"></span></div>
+                      <div class="unit__body">Grecia, Alajuela, Costa Rica</div>
                     </div>
                   </div>
                 </div>
